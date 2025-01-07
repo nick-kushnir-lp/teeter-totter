@@ -80,7 +80,7 @@ export default defineComponent({
     const barStyle = computed(() => {
       const td = torqueDifference(leftObjects.value, rightObjects.value);
       const bend = computeBendingPercentage(td); // -0.3 to 0.3
-      const deg = bend * 10; // e.g., ±3 degrees at max
+      const deg = bend * 10;
       return {
         transform: `rotate(${-deg}deg)`,
       };

@@ -57,7 +57,7 @@ npm run dev
 ```
 ## Run Unit Tests with Vitest
 ```sh
-npm run test
+npm run test:unit
 ```
 ## Lint with ESLint
 ```sh
