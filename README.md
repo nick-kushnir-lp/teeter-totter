@@ -49,3 +49,17 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ```sh
 npm install
+```
+## Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+## Run Unit Tests with Vitest
+```sh
+npm run test
+```
+## Lint with ESLint
+```sh
+npm run lint
+```
